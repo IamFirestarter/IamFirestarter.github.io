@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!-- NOTE: PLEASE DON'T STEAL/USE MY DESIGN AND CODE VERBATIM! DO THE RIGHT THING AND BE ORIGINAL! - josh fontecha-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap stuff and custom css-->
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/styles.css" rel="stylesheet">
+    <title>Josh Fontecha</title>
+  </head>
+  <body>
+
+    <!-- TODO: add fixed navbar -->
+
+    <header>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <span class="hireme" data-toggle="modal" data-target="#hireme">&nbsp;-> Available for hire. Learn how I can help you.</span>
+          <div class="logo">
+            <a href="./index.html">
+              <img src="./assets/imgs/triangle-blackboard-100.png" id="image1" alt="number42.org logo">
+            </a>
+          </div>
+          <div class="header-fix temp-nav">
+            <a href="/about">Josh Fontecha</a>&nbsp;| <a href="">Journal</a>&nbsp;| <a href="./portfolio.html">Portfolio</a>&nbsp;| <a href="">Contact</a>
+            </div>
+          <h5>Interface design, growth mindset, storytelling</h5>
+        </div>
+      </div>
+    </header>
+    <!-- content after header/nav starts here -->
+    <!-- TODO: add search, google analytics and SEO/metadat enhancements -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h3>> Featured Projects </h3>
+        </div>
+    </div>
+
+    <!--  projects content goes here -->
+
+    <div class="row">
+      <div class="col-md-4 carded">
+        <div class="hovereffect" data-toggle="modal" data-target="#project1">
+          <h4 class="title-card text-center">(1) Automating repetitive tasks with python</h4>
+          <img src="./assets/imgs/1-automation.png" alt="project 1 image">
+            <div class="overlay">
+              <p><u>TECH USED:</u> python3</p>
+              <p><u>STATUS:</u> 30% done<br><progress class="progreso" value="22" max="100">
+</progress></p>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-4 carded">
+        <div class="hovereffect"  data-toggle="modal" data-target="#project2">
+          <h4 class="title-card text-center">(2) 57 experiments in programming and design</h4>
+          <img src="./assets/imgs/4-another-world.jpg" alt="project 2 image">
+          <div class="overlay">
+            <p><u>TECH USED:</u> html5, css3, js </p>
+            <p><u>STATUS:</u> ongoing</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 carded">
+        <div class="hovereffect" data-toggle="modal" data-target="#project3">
+          <h4 class="title-card text-center">(3) Udacity's Front-end Nanodegree</h4>
+          <img src="./assets/imgs/udacity.jpg" alt="project 3 image">
+          <div class="overlay" >
+            <p>TECH USED: html, css, js, jquery, selenium, git, tdd</p>
+            <p>STATUS: <span class="status1">ongoing</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- Modals -->
+  <div class="modal fade" id="hireme" tabindex="-1" role="dialog" aria-labelledby="hireme" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header text-right">
+                  <button type="button" class="btn btn-default" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title text-center" >Here's a list of things I can help you with:</h4>
+              </div>
+              <div class="modal-body">
+                  <p>Hi I'm Josh. Here's a link to my CV, LinkedIN, Github, Stackoverflow and my blog. Also, here here's a list of services I can provide you with (I guarantee a 10% improvement in any of these offerings!):</p>
+                  <ul>
+                    <li>A</li>
+                    <li>B</li>
+                    <li>C</li>
+                    <li>D</li>
+                  </ul>
+              </div>
+              <div class="modal-footer">
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="project1" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header text-right">
+                  <button type="button" class="btn btn-default" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title text-center" >Test</h4>
+              </div>
+              <div class="modal-body">
+                  <img class="" src="./assets/imgs/555x300" alt="project 1 image">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate fugiat explicabo odio consequuntur, sit eius fugit, perspiciatis, nam aliquam ducimus, numquam maiores natus odit vel qui illo culpa! Eaque, praesentium..
+              </div>
+              <div class="modal-footer">
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="project2" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header text-right">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+              <div class="modal-body">
+                <h4 class="text-center">Test</h4>
+                  <img class="" src="./assets/imgs/555x300" alt="project 2 image">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti vel eligendi, minus sint ducimus fuga aperiam delectus provident voluptate, pariatur earum unde deserunt accusamus vitae placeat quisquam assumenda dolore hic?
+              </div>
+              <div class="modal-footer">
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="project3" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header text-right">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+              <div class="modal-body">
+                <h4 class="text-center">Test</h4>
+                  <img class="" src="./assets/imgs/555x300" alt="project 3 image">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sed, libero similique! Perferendis optio repellendus et autem aperiam dolore voluptates nostrum laudantium, fugiat expedita sit, deserunt in itaque odit recusandae.
+              </div>
+              <div class="modal-footer">
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<script src="./assets/js/myScripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,227 @@
+/* media queries to improve .carded and .title responsiveness */
+
+.progreso {
+  background: #fff;
+}
+
+progress::-webkit-progress-bar { background: white; }
+progress::-webkit-progress-value { background: rgb(92, 184, 92);
+; }
+progress::-moz-progress-bar { background: #0063a6; }
+
+h4 {
+    font-size: 1.4em;
+}
+
+/** {
+border: 1px solid red !important;}*/
+
+body, div, input{
+	font-family: Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+	line-height: 22px;
+}
+
+/* TODO: improve hover code
+
+http://codepen.io/pdelsignore/pen/uqenH
+
+https://stackoverflow.com/questions/623172/how-to-get-image-size-height-width-using-javascript
+
+http://www.cssscript.com/demo/pure-css3-animated-text-overlay-on-hover/
+*/
+
+/* hire me styling */
+
+.hireme {
+  color:white;
+  text-decoration: underline;
+  font-size: 16px;
+  margin: 5px auto;
+  background-color: #F76262;
+}
+
+.hireme:hover {
+  color:white;
+  background-color: #F76262;
+  cursor:pointer;
+}
+
+/* css for borders, titles and overlay text on projects */
+
+.carded {
+  background-color: white;
+}
+
+.title-card {
+	color:black;
+	background-color: white;
+  border-style: solid;
+  border-width: 2px;
+  margin-bottom: 10px;
+
+}
+
+/* "header/nav" fixes */
+
+.temp-nav {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.logo {
+	margin:0 auto;
+}
+
+/*.logo img:hover {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}*/
+
+.logo a:link {
+  border-bottom-style: none;
+  text-decoration: none;
+  background-color: white;
+}
+
+.logo a:visited {
+  border-bottom-style: none;
+  text-decoration: none;
+  background-color: white;
+}
+/* fix margin between logo and title*/
+
+.header-fix {
+  margin-top: 0px;
+}
+
+
+/* links styling */
+
+a:link, a:visited, a:link .underline, a:visited .underline {
+	color: black;
+	text-decoration: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ccc;
+}
+
+a:hover,
+a:hover .underline {
+	color:white;
+	background-color: black;
+	border-bottom-color: #000;}
+
+a:active,
+a:active .underline {
+	color: #EE4036 !important;
+	border-bottom-color: #EE4036 !important;
+}
+
+/* misc */
+
+/* just in case I need it later on for fixes/testing */
+.inline {
+	display:inline-block;
+}
+
+/* hover responsive ducktape fix */
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: static;}
+
+/* hover css 
+http://miketricking.github.io/dist/
+*/
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  background:white;
+/*  margin-top: 20px;
+*/}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  /*TODO: make below positions relative to the img size to improve responsiveness*/
+  top: 70px;
+  left: 0;
+  padding: 50px 20px;
+
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: calc(100% + 20px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-10px,0,0);
+  transform: translate3d(-10px,0,0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.hovereffect:hover img {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+/*.hovereffect h2 {
+  text-transform: uppercase;
+  color: #000;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  overflow: hidden;
+  padding: 0.5em 0;
+  background-color: transparent;
+}
+
+.hovereffect h2:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  content: '';
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(-100%,0,0);
+  transform: translate3d(-100%,0,0);
+}
+
+.hovereffect:hover h2:after {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}*/
+
+.hovereffect a, .hovereffect p {
+  color: #fff;
+  background-color: black;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(100%,0,0);
+  transform: translate3d(100%,0,0);
+}
+
+.hovereffect:hover a, .hovereffect:hover p {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
