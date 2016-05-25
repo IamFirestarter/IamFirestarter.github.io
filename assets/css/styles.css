@@ -34,7 +34,6 @@ http://www.cssscript.com/demo/pure-css3-animated-text-overlay-on-hover/
 
 .hireme {
   color:white;
-  text-decoration: underline;
   font-size: 16px;
   margin: 5px auto;
   background-color: #F76262;
@@ -44,6 +43,7 @@ http://www.cssscript.com/demo/pure-css3-animated-text-overlay-on-hover/
   color:white;
   background-color: #F76262;
   cursor:pointer;
+  text-decoration: underline;
 }
 
 /* css for borders, titles and overlay text on projects */
