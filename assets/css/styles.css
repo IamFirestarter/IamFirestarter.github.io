@@ -16,6 +16,11 @@ h4 {
 /** {
 border: 1px solid red !important;}*/
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body, div, input{
 	font-family: Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
 	line-height: 22px;
@@ -36,12 +41,12 @@ http://www.cssscript.com/demo/pure-css3-animated-text-overlay-on-hover/
   color:white;
   font-size: 16px;
   margin: 5px auto;
-  background-color: #F76262;
+  background-color: rgb(92, 184, 92);
 }
 
 .hireme:hover {
   color:white;
-  background-color: #F76262;
+  background-color: rgb(92, 184, 92);
   cursor:pointer;
   text-decoration: underline;
 }
