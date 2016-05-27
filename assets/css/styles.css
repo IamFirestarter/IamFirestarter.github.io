@@ -26,6 +26,9 @@ body, div, input{
 	line-height: 22px;
 }
 
+header {
+  margin-bottom: 10px;
+}
 /* TODO: improve hover code
 
 http://codepen.io/pdelsignore/pen/uqenH

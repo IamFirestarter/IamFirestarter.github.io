@@ -1,9 +1,13 @@
 TODO:
-- add google analytics & test
-- add domain number42.org
-- design contact page
-- design & write about page
-- write HIREME text
-- adblock msg (blue, orange, green tag)
-- 
-- make sure all pages have same header 
+	- make sure all pages have same header/footer @done
+	- add google analytics
+	- write about page
+	- write HIREME text
+	- add domain www.number42.org @done
+	- add email to domain
+	- design contact page
+	- modify portoflio projects
+
+for later:
+	- adblock msg (blue, orange, green tag)
+	- 
