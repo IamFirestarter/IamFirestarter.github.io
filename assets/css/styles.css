@@ -38,6 +38,13 @@ https://stackoverflow.com/questions/623172/how-to-get-image-size-height-width-us
 http://www.cssscript.com/demo/pure-css3-animated-text-overlay-on-hover/
 */
 
+/* about */
+
+.about {
+  margin: 50px auto;
+  text-align: justify;
+}
+
 /* hire me styling */
 
 .hireme {
