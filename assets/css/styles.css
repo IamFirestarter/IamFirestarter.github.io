@@ -1,5 +1,9 @@
 /* media queries to improve .carded and .title responsiveness */
 
+.contact {
+  color:#FF001F;
+}
+
 .progreso {
   background: #fff;
 }
@@ -41,15 +45,19 @@ http://www.cssscript.com/demo/pure-css3-animated-text-overlay-on-hover/
 /* about */
 
 .about {
-  margin: 50px auto;
+  margin: 30px auto;
   text-align: justify;
+}
+
+.texto {
+  font-size: 16px;
 }
 
 /* hire me styling */
 
 .hireme {
   color:white;
-  font-size: 16px;
+  font-size: 18px;
   margin: 5px auto;
   background-color: rgb(92, 184, 92);
 }
