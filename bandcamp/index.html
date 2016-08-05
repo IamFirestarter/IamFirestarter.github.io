@@ -1,0 +1,43 @@
+
+<!doctype html>
+<!-- TODO: add google analytics -->
+<html lang="en" id="not-found">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hi there Bandcamp!</title>
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <script src="./bower_components/jquery/dist/jquery.js"></script>
+    <script src="./javascripts/typed.js" type="text/javascript"></script>
+    <script>
+        $(function(){
+            var timestamp = Date();
+            // make conversation
+            $('#story').typed({
+                strings: ["CONNECTION ESTABLISHED<br><br>PLEASE STANDBY.^1000.^1000.^1000<br><br>Last login: April 26, 2015<br><br>logon: Joshua^1500<br><br> Greetings Bandcamp.^1000<br><br>It's been a longtime.^1000<br><br> Shall we play again?^1000"],
+                typeSpeed: 0,
+                backDelay: 0,
+                loop: false,
+                loopCount: false,
+                contentType: 'html'
+            });
+        });
+        $(document).ready(function() {
+          setTimeout(function() {
+            // send 'em packing 
+            $('#kick').append('<a href="winningmove.html">YES</a> | <a href="nope.html">NO</a>');
+          }, 15000);
+        });
+    </script>
+  </head>
+  <!-- Hey Bandcamp, if you're reading this, I should mention that all credit for these wonderful retro effects goes to the lovely Allison.House I just wrote the text and came up with the idea :) --> 
+  <body>
+      <div id="holder" align="center">
+          <span id="story"></span>
+          <div id="kick"></div>
+      </div>
+  </body>
+</html>
